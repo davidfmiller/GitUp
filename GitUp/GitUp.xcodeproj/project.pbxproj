@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -590,6 +590,7 @@
 		E21DCAEC1B253847006424E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = TXE245Y3DF;
 				HEADER_SEARCH_PATHS = "../GitUpKit/Third-Party/libgit2/include";
 				PRODUCT_NAME = gitup;
 				SKIP_INSTALL = YES;
@@ -599,6 +600,7 @@
 		E21DCAED1B253847006424E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = TXE245Y3DF;
 				HEADER_SEARCH_PATHS = "../GitUpKit/Third-Party/libgit2/include";
 				PRODUCT_NAME = gitup;
 				SKIP_INSTALL = YES;
@@ -630,6 +632,7 @@
 				BUNDLE_VERSION = 0;
 				BUNDLE_VERSION_STRING = 1.1;
 				CODE_SIGN_ENTITLEMENTS = Application/GitUp.entitlements;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = TXE245Y3DF;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Third-Party";
 				INFOPLIST_FILE = Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -649,6 +652,7 @@
 				BUNDLE_VERSION = 0;
 				BUNDLE_VERSION_STRING = 1.1;
 				CODE_SIGN_ENTITLEMENTS = Application/GitUp.entitlements;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = TXE245Y3DF;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Third-Party";
 				INFOPLIST_FILE = Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
